@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+  outline: none;
+  box-sizing: border-box
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0 5px 0;
+  border-radius: 2px;
+  display: inline-block;
+  border: solid 1px #d0d0d0;
+  background: #FAFAFA;
+}
+
+.minimal-body {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 400px;
+  padding-right: 10px;
+  padding-left:  10px;
+}
+.center{
+  text-align: center;
+  color:rgba(159, 158, 158, 0.36);
+}
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+ 
+#logo {
+  display:block;
+  margin:auto;
+  max-width: 70%;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.google, .facebook {
+  height: 40px;
+  border-radius: 7px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: solid 1px #d0d0d0;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+
+
+/* Set a style for all sign buttons */
+ .btn-sign {
+  border-radius: 7px;
+  background-color: #35CF23;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+} 
+form {
+  display: flex;
+
+}
+a {
+  color: dodgerblue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+button:hover {
+  opacity:1;
+}
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+ /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.gr27e  {
+background-color: #fff;
+border:1px solid #e6e6e6;
+border-radius: 1px;
+margin: 8px 0 0;
+padding:  0 25px 0 25px;
+display: block;
+}
+.contenxt-switch{
+  padding:  34px 0 10px 0;
+  margin-bottom: 5px;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .signupbtn {
+    width: 100%;
+  }
+  
+.minimal-body {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 200px;
+  padding-right: 10px;
+  padding-left:  10px;
+}
+}
